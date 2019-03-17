@@ -5,33 +5,35 @@
     <meta charset="UTF-8">
     <title>familyweb</title>
     <link rel="stylesheet" href="../css/style.css">
+    <!--
     <script src="../jQuery/jquery.diamonds.js-master/jquery.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript" src="..//js/jquery.diamonds.js"></script>
     <link href="..//css/diamonds.css" rel="stylesheet" type="text/css">
+-->
 </head>
 
 <body>
+
     <nav>
         <ul>
             <li>
-                <a href="./index.html">家族の物語</a>
+                <a href="#kazomono">家族の物語</a>
             </li>
             <li>
-                <a href="./index.html">ココロをつなぐ物語</a></li>
+                <a href="#kokoro">ココロをつなぐ物語</a></li>
             <li>
-                <a href="./index.html">あなたの物語</a></li>
+                <a href="#anata">あなたの物語</a></li>
         </ul>
     </nav>
+
     <div class="top">
         <div class="main-visual">
 
-            <img src="../images/topp.png" alt="" width="1500">
+            <img src="../images/top.png" alt="" width="1500">
         </div>
 
-        <p class="iimoji">あなたにとって<br>
-            家族は<br>
-            どんな存在ですか</p>
+
         <img class="y1" src="../images/y1.png">
 
         <p class="coment">家族はなんだかんだ言ってそばにいてくれる。そんな、なんとなく頼ってしまう存在かもしれません。<br>
@@ -43,9 +45,9 @@
 
     </div>
     <div class="kazomono">
-
-        <h1 class="contents-title">家族の物語</h1>
-
+        <section id="kazomono">
+            <h1 class="contents-title">家族の物語</h1>
+        </section>
         <p class="mini-title">一つの家族の物語。あなたと家族の大切な思い出はなんですか？</p>
 
         <div class="story">
@@ -72,7 +74,7 @@
         </div>
 
         <div class="block">
-            <img class="tosi" src="..//images/tosi.png">
+            <img class="tosi" src="..//images/tel3.png">
 
             <p class="tell-r">久しぶりに泣きながら帰ってきた。<br>
                 いじめられたのかと心配したら<br>
@@ -105,7 +107,7 @@
                 もう何も心配することはないね。<br>
                 あとは綺麗な花嫁さんになってね。<br>
                 それまで私も可愛く入れるように頑張ります。</p>
-            <img class="tellc" src="..//images/tell.jpg">
+            <img class="tellc" src="..//images/topp.png">
         </div>
 
 
@@ -115,7 +117,9 @@
 
     <div class="kokotuna">
 
-        <h1 class="contents-title">ココロをつなぐ物語</h1>
+        <section id="kokoro">
+            <h1 class="contents-title">ココロをつなぐ物語</h1>
+        </section>
         <p class="mini-title">みんなの「ありがとう」をのぞいてみる</p>
         <div class="kokomonogatari">
             <img class="kokoro" src="..//images/kokoro1.png">
@@ -128,8 +132,9 @@
 
 
     <div class="anatano">
-
-        <h1 class="contents-title">あなたの物語は</h1>
+        <section id=anata>
+            <h1 class="contents-title">あなたの物語は</h1>
+        </section>
         <p class="mini-title">あなたはどうやって「ありがとう」を伝えますか？</p>
 
         <div class="diamondswrap">
@@ -144,14 +149,19 @@
                 <a href="#" class="item"><img src="..//images/cook.png" alt="" /></a>
                 <div class="caption">
                     <h2>夕食を作る</h2>
-                    <h3>両親に手料理をプレゼント<br>あなたの得意料理は？</h3>
+                    <h3>両親に手料理をプレゼント<br>あなたの得意料理は？<br>
+                        <a href="https://cookpad.com/">Cookpad</a>
+                    </h3>
+
                 </div>
             </div>
             <div class="animation1">
                 <a href="#" class="item"><img src="..//images/trip.png" alt="" /></a>
                 <div class="caption">
                     <h2>旅行券のプレゼント</h2>
-                    <h3>両親に2人きりの時間を<br>プレゼント</h3>
+                    <h3>両親に2人きりの時間を<br>プレゼント<br>
+                        <a href="http://www.jtb.co.jp/gift/">JTBgift</a></h3>
+
                 </div>
             </div>
 
@@ -159,7 +169,8 @@
                 <a href="#" class="item"><img src="..//images/phone.png" alt="" /></a>
                 <div class="caption">
                     <h2>SNSを使って</h2>
-                    <h3>＃ありがとうプロジェクト　を使って<br>感謝の波を作る</h3>
+                    <h3>＃ありがとうプロジェクト<br>を使って感謝の波を作る<br>
+                        <a href="https://twitter.com/">Twitter</a></h3>
                 </div>
             </div>
 
@@ -168,7 +179,8 @@
                 <a href="#" class="item"><img src="..//images/present.png" alt="" /></a>
                 <div class="caption">
                     <h2>贈り物</h2>
-                    <h3>感謝の贈り物<br>あなたの家族の喜ぶものを</h3>
+                    <h3>感謝の贈り物<br>あなたの家族の喜ぶものを<br>
+                        <a href="https://www.amazon.co.jp/">Amazon</a></h3>
                 </div>
             </div>
 
@@ -179,7 +191,10 @@
                 <a href="#" class="item"><img src="..//images/programing.png" alt="" /></a>
                 <div class="caption">
                     <h2>ITの力を使う</h2>
-                    <h3>あなたの家族にITの贈り物<br>アプリやサイトをプレゼントに</h3>
+                    <h3>あなたの家族にITの贈り物<br>アプリやサイトをプレゼントに
+                        <br>
+                        <a href="https://life-is-tech.com/">Life is Tech!
+                        </a></h3>
                 </div>
             </div>
 

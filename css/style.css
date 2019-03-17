@@ -3,6 +3,31 @@
     src: local('UtsukushiFONT');
 }
 
+body {
+    animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
 nav {
     width: 10-0%;
     right: 0;
@@ -128,9 +153,12 @@ img {
 }
 
 .tellc {
-    height: 600px;
+    height: 400px;
+    opacity: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
     opacity: 70%;
-    margin: 20%;
 
 }
 
@@ -168,31 +196,27 @@ img {
     position: absolute;
     padding: 20px;
     background: #9cbec4;
-    height: 360px;
+    height: 250px;
     width: 360px;
-    transform: rotate(90deg);
     float: left;
+    transform: rotate(-45deg);
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
     opacity: 0;
     z-index: 1;
+
 }
 
 .animation1 .caption h2 {
     color: #Fcf8e8;
-    font-size: 50px;
-    transform: rotate(-45deg);
-    margin-left: 30px;
-    margin-top: 80px;
+    font-size: 40px;
+    text-align: center;
 }
 
 .animation1 .caption h3 {
     color: #413e2c;
-    font-size: 20px;
-    transform: rotate(-45deg);
-    margin-left: 70px;
-    margin-top: 70px;
+    font-size: 15px;
     text-align: center;
 
 }
@@ -202,7 +226,8 @@ img {
     -ms-transform: translate(8px, 8px);
     -o-transform: translate(8px, 8px);
     transform: translate(8px, 8px);
-    opacity: 0.7;
+    opacity: 0.9;
+
 }
 
 .last {
