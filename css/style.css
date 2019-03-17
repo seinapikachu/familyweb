@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'UtsukushiFONT';
+    src: local('UtsukushiFONT');
+}
+
 nav {
     width: 10-0%;
     right: 0;
@@ -7,13 +12,13 @@ nav {
     padding: 3px 0px;
     z-index: 2;
     background-color: #Fcd40c;
-    font-family: "font";
+    font-family: UtsukushiFONT;
 }
 
 nav li {
     float: left;
     list-style-type: none;
-    font-family: "UtsukushiFONT";
+    font-family: UtsukushiFONT;
     font-size: 20px;
 }
 
@@ -24,6 +29,7 @@ nav a {
     margin: 10px 40px 20px;
     transform: 0.3s;
     background: none;
+    font-family: UtsukushiFONT;
 
 }
 
@@ -60,6 +66,7 @@ img {
     text-align: center;
     margin-left: 550px;
     margin-top: 150px;
+    font-family: UtsukushiFONT;
 }
 
 .y1 {
@@ -71,6 +78,7 @@ img {
 .coment {
     text-align: center;
     line-height: 30px;
+    font-family: UtsukushiFONT;
 
 }
 
@@ -146,7 +154,55 @@ img {
 }
 
 .anatano {
-    width: 100%;
+    width: 110%;
+    height: 2500px;
+}
+
+.animation1 {
+    position: relative;
+    width: 700px;
+    float: left;
+}
+
+.animation1 .caption {
+    position: absolute;
+    padding: 20px;
+    background: #9cbec4;
+    height: 360px;
+    width: 360px;
+    transform: rotate(90deg);
+    float: left;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0;
+    z-index: 1;
+}
+
+.animation1 .caption h2 {
+    color: #Fcf8e8;
+    font-size: 50px;
+    transform: rotate(-45deg);
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+.animation1 .caption h3 {
+    color: #413e2c;
+    font-size: 20px;
+    transform: rotate(-45deg);
+    margin-left: 70px;
+    margin-top: 70px;
+    text-align: center;
+
+}
+
+.animation1:hover .caption {
+    -webkit-transform: translate(8px, 8px);
+    -ms-transform: translate(8px, 8px);
+    -o-transform: translate(8px, 8px);
+    transform: translate(8px, 8px);
+    opacity: 0.7;
 }
 
 .last {
