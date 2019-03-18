@@ -1,11 +1,8 @@
-@font-face {
-    font-family: 'UtsukushiFONT';
-    src: local('UtsukushiFONT');
-}
-
 body {
     animation: fadeIn 2s ease 0s 1 normal;
     -webkit-animation: fadeIn 2s ease 0s 1 normal;
+    font-family: Makinas-Scrap-5;
+    ;
 }
 
 @keyframes fadeIn {
@@ -37,13 +34,12 @@ nav {
     padding: 3px 0px;
     z-index: 2;
     background-color: #Fcd40c;
-    font-family: UtsukushiFONT;
+
 }
 
 nav li {
     float: left;
     list-style-type: none;
-    font-family: UtsukushiFONT;
     font-size: 20px;
 }
 
@@ -54,7 +50,7 @@ nav a {
     margin: 10px 40px 20px;
     transform: 0.3s;
     background: none;
-    font-family: UtsukushiFONT;
+
 
 }
 
@@ -68,6 +64,7 @@ nav ul {
     position: absolute;
     right: 0;
     z-index: 999;
+
 }
 
 img {
@@ -91,7 +88,7 @@ img {
     text-align: center;
     margin-left: 550px;
     margin-top: 150px;
-    font-family: UtsukushiFONT;
+
 }
 
 .y1 {
@@ -103,7 +100,8 @@ img {
 .coment {
     text-align: center;
     line-height: 30px;
-    font-family: UtsukushiFONT;
+
+
 
 }
 
@@ -116,10 +114,12 @@ img {
     font-size: 50px;
     text-align: center;
     padding-top: 100px;
+
 }
 
 .mini-title {
     text-align: center;
+
 }
 
 .tosi {
@@ -128,6 +128,7 @@ img {
 
 .story {
     margin-top: 200px;
+
 }
 
 .tell-r {
@@ -136,6 +137,7 @@ img {
     margin-right: 200px;
     font-size: 20px;
     text-align: center;
+
 }
 
 .tell-l {
@@ -144,12 +146,14 @@ img {
     margin-left: 200px;
     font-size: 20px;
     text-align: center;
+
 }
 
 .tell-c {
     margin-top: 200px;
     font-size: 20px;
     text-align: center;
+
 }
 
 .tellc {
@@ -159,6 +163,7 @@ img {
     margin: auto;
     margin-top: 20px;
     opacity: 70%;
+
 
 }
 
@@ -184,6 +189,12 @@ img {
 .anatano {
     width: 110%;
     height: 2500px;
+
+}
+
+.anatano img {
+    width: 600px;
+    height: 600px;
 }
 
 .animation1 {
@@ -194,17 +205,18 @@ img {
 
 .animation1 .caption {
     position: absolute;
+    top: 40px;
+    left: 40px;
     padding: 20px;
     background: #9cbec4;
-    height: 250px;
-    width: 360px;
     float: left;
-    transform: rotate(-45deg);
+    /*    transform: rotate(-45deg);*/
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
     opacity: 0;
     z-index: 1;
+    margin-bottom: 20px;
 
 }
 
@@ -234,11 +246,30 @@ img {
     width: 100%;
 }
 
+.link {
+    font-size: 20px;
+    border: 4px solid #413e2c;
+    color: #413e2c;
+    text-decoration: none;
+    padding: 7px 7px;
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+
+}
+
+.link:hover {
+    color: #Fcd40c;
+    border-color: #Fcd40c;
+    margin-top: 10px;
+}
+
 .coment-last {
     text-align: center;
     line-height: 30px;
     margin-top: 100px;
     margin-bottom: 100px;
+
 }
 
 .coment-right {
@@ -246,12 +277,13 @@ img {
     line-height: 30px;
     margin-top: 100px;
     margin-bottom: 100px;
+
 }
 
 .footer {
     background-color: #Fcd40c;
     padding-top: 30px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
 }
 
 .footer-sen {
